@@ -9,17 +9,12 @@
     "128": "icons/icon128.png"
   },
   "default_locale": "en",
-  "page_action": {
-    "default_icon": "icons/icon19.png",
-    "default_title": "page action demo",
-    "default_popup": "src/page_action/page_action.html"
-  },
   "background": {
     "scripts": ["js/redirect.js"]
   },
   "permissions": [
     "webRequest",
-    "*://*.wikipedia.org/",
-    "webRequestBlocking"
+    "webRequestBlocking",
+    "*://*.wikipedia.org/"
   ]
 }
