@@ -1,0 +1,25 @@
+{
+  "name": "Wikipedia Açıcı",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Engellenen Wikipedia adreslerinin tümünü sorunsuzca kullanmanızı sağlayan çok küçük bir eklenti.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "page_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "background": {
+    "scripts": ["js/redirect.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "*://*.wikipedia.org/",
+    "webRequestBlocking"
+  ]
+}
