@@ -39,6 +39,6 @@ chrome.webRequest.onBeforeRequest.addListener(
     }, ["blocking"]);
 ```
 
-# License
+## License
 
 This extension is released under the MIT Licence. For further information, see the [LICENSE.md](LICENSE.md).
