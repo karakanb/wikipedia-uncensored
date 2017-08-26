@@ -14,9 +14,10 @@ chrome.webRequest.onBeforeRequest.addListener(
         urls: ["*://*.wikipedia.org/*"]
     }, ["blocking"]);
 ```
+## Kurulum
+[Buraya tıklayarak](https://chrome.google.com/webstore/detail/wikipedia-a%C3%A7%C4%B1c%C4%B1/fgahdplpgmaoalaececccdphcmbinjog) Chrome Web Store üzerinden eklentiyi Chrome'unuza kurabilirsiniz. Sayfa açıldıktan sonra sağ üst köşedeki "Chrome'a Ekle" butonuna bastığınızda eklenti otomatik olarak Chrome'a eklenmiş olacaktır. Herhangi bir konfigürasyon yapmanıza gerek kalmadan her Wikipedia sayfasına erişebileceksiniz.
 
-
-## License
+## Lisans
 
 Bu eklenti MIT Lisansı altında yayınlanmıştır. Daha detaylı bilgi için [LICENSE.md](LICENSE.md) dosyasını inceleyebilirsiniz.
 
@@ -38,6 +39,8 @@ chrome.webRequest.onBeforeRequest.addListener(
         urls: ["*://*.wikipedia.org/*"]
     }, ["blocking"]);
 ```
+## Installation
+[By clicking here](https://chrome.google.com/webstore/detail/wikipedia-a%C3%A7%C4%B1c%C4%B1/fgahdplpgmaoalaececccdphcmbinjog) you can install the extension to your Google Chrome. After clicking the "Add to Chrome" button, the add-on will be installed and ready-to-use out-of-box.
 
 ## License
 
